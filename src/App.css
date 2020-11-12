@@ -1,0 +1,27 @@
+
+.App {
+  text-align: center;
+ background-color: lightcoral;
+  
+
+
+}
+.header{
+  display: grid;
+  /* grid-template-rows:  1fr 1fr 1fr; */
+  grid-template-columns: 1fr  1fr;
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.theme{
+ 
+ text-align: right;
+
+}
+.ulTodo li{
+  display: inline-block;
+}
